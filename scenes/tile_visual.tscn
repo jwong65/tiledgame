@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bflauehlpp8ey"]
+
+[node name="TileVisual" type="Control" unique_id=1123607190]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Back" type="TextureRect" parent="." unique_id=895325337]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Front" type="TextureRect" parent="." unique_id=1855808670]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
