@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://burfia8mylfcd"]
+
+[ext_resource type="Script" uid="uid://bexst130xoxpn" path="res://scripts/ui/ui.gd" id="1_u7n8c"]
+
+[node name="Control - Game UI" type="Control" unique_id=1238723246]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u7n8c")
+
+[node name="TileHand" type="PanelContainer" parent="." unique_id=766789696]
+layout_mode = 0
+offset_top = 620.0
+offset_right = 1280.0
+offset_bottom = 720.0
+
+[node name="TileContainer" type="HBoxContainer" parent="TileHand" unique_id=549743706]
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Tile1" type="Button" parent="TileHand/TileContainer" unique_id=722887806]
+custom_minimum_size = Vector2(100, 80)
+layout_mode = 2
+
+[node name="Tile2" type="Button" parent="TileHand/TileContainer" unique_id=321925513]
+custom_minimum_size = Vector2(100, 80)
+layout_mode = 2
+
+[node name="Tile3" type="Button" parent="TileHand/TileContainer" unique_id=373202920]
+custom_minimum_size = Vector2(100, 80)
+layout_mode = 2
+
+[node name="Tile4" type="Button" parent="TileHand/TileContainer" unique_id=1469759162]
+custom_minimum_size = Vector2(100, 80)
+layout_mode = 2
+
+[node name="Tile5" type="Button" parent="TileHand/TileContainer" unique_id=1171500079]
+custom_minimum_size = Vector2(100, 80)
+layout_mode = 2

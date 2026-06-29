@@ -1,12 +1,17 @@
 [gd_scene format=3 uid="uid://b48f6finbl7qn"]
 
-[ext_resource type="Script" uid="uid://d3px1ualdcj00" path="res://scripts/player/player_controller.gd" id="1_dovo2"]
+[ext_resource type="Script" uid="uid://d3px1ualdcj00" path="res://scripts/player/player_controller.gd" id="1_gmlin"]
 [ext_resource type="Texture2D" uid="uid://c7ktwoo21wmwg" path="res://assets/sprites/placeholder.png" id="2_gmlin"]
+[ext_resource type="PackedScene" uid="uid://burfia8mylfcd" path="res://scenes/ui/ui.tscn" id="3_lvxji"]
 
 [node name="Node2D - Player" type="Node2D" unique_id=1333598757]
-script = ExtResource("1_dovo2")
+script = ExtResource("1_gmlin")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=567772879]
 texture = ExtResource("2_gmlin")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=628743724]
+
+[node name="UILayer" type="CanvasLayer" parent="." unique_id=1409893960]
+
+[node name="Control - Game UI" parent="UILayer" unique_id=1238723246 instance=ExtResource("3_lvxji")]
