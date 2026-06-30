@@ -10,6 +10,7 @@ extends Control
 
 var deck_manager: DeckManager
 var current_hand: Array[Tile] = []
+var selected_index := 0
 
 func _ready() -> void:
 	deck_manager = DeckManager.new()
