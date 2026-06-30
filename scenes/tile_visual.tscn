@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://y5q0pmvpyhjy" path="res://assets/tiles/Regular/Front.svg" id="3_ry6jk"]
 
 [node name="TileVisual" type="Control" unique_id=1123607190]
-custom_minimum_size = Vector2(50, 60)
+custom_minimum_size = Vector2(50, 65)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -18,6 +18,8 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture = ExtResource("2_8hoh7")
+expand_mode = 3
+stretch_mode = 0
 
 [node name="Front" type="TextureRect" parent="." unique_id=1855808670]
 layout_mode = 3
@@ -25,3 +27,5 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture = ExtResource("3_ry6jk")
+expand_mode = 3
+stretch_mode = 0
