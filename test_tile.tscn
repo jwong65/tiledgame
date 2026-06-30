@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://vlknqbwh4gf7"]
+
+[ext_resource type="Script" uid="uid://c8dr42vllradf" path="res://test_tile.gd" id="1_spbwd"]
+[ext_resource type="PackedScene" uid="uid://bflauehlpp8ey" path="res://scenes/tile_visual.tscn" id="2_3704a"]
+
+[node name="TestTile" type="Control" unique_id=358561582]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_spbwd")
+
+[node name="TileVisualInstance" parent="." unique_id=1123607190 instance=ExtResource("2_3704a")]
+layout_mode = 0

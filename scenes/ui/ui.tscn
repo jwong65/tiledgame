@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://burfia8mylfcd"]
 
 [ext_resource type="Script" uid="uid://bexst130xoxpn" path="res://scripts/ui/ui.gd" id="1_u7n8c"]
+[ext_resource type="PackedScene" uid="uid://bflauehlpp8ey" path="res://scenes/tile_visual.tscn" id="2_f5cxw"]
 
 [node name="Control - Game UI" type="Control" unique_id=1238723246]
 layout_mode = 3
@@ -22,22 +23,22 @@ layout_mode = 2
 theme_override_constants/separation = 10
 alignment = 1
 
-[node name="Tile1" type="Button" parent="TileHand/TileContainer" unique_id=722887806]
-custom_minimum_size = Vector2(100, 80)
+[node name="TileVisual" parent="TileHand/TileContainer" unique_id=1123607190 instance=ExtResource("2_f5cxw")]
+custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
-[node name="Tile2" type="Button" parent="TileHand/TileContainer" unique_id=321925513]
-custom_minimum_size = Vector2(100, 80)
+[node name="TileVisual2" parent="TileHand/TileContainer" unique_id=1399609578 instance=ExtResource("2_f5cxw")]
+custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
-[node name="Tile3" type="Button" parent="TileHand/TileContainer" unique_id=373202920]
-custom_minimum_size = Vector2(100, 80)
+[node name="TileVisual3" parent="TileHand/TileContainer" unique_id=775669539 instance=ExtResource("2_f5cxw")]
+custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
-[node name="Tile4" type="Button" parent="TileHand/TileContainer" unique_id=1469759162]
-custom_minimum_size = Vector2(100, 80)
+[node name="TileVisual4" parent="TileHand/TileContainer" unique_id=1129308297 instance=ExtResource("2_f5cxw")]
+custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
-[node name="Tile5" type="Button" parent="TileHand/TileContainer" unique_id=1171500079]
-custom_minimum_size = Vector2(100, 80)
+[node name="TileVisual5" parent="TileHand/TileContainer" unique_id=264708602 instance=ExtResource("2_f5cxw")]
+custom_minimum_size = Vector2(100, 120)
 layout_mode = 2

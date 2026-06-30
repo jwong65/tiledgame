@@ -1,17 +1,26 @@
 [gd_scene format=3 uid="uid://bflauehlpp8ey"]
 
+[ext_resource type="Script" uid="uid://cbd051lgnbwrt" path="res://scripts/tiles/tile_visual.gd" id="1_wvw87"]
+[ext_resource type="Texture2D" uid="uid://bk5uc605pxbdp" path="res://assets/tiles/Regular/Back.svg" id="2_8hoh7"]
+[ext_resource type="Texture2D" uid="uid://y5q0pmvpyhjy" path="res://assets/tiles/Regular/Front.svg" id="3_ry6jk"]
+
 [node name="TileVisual" type="Control" unique_id=1123607190]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_wvw87")
 
 [node name="Back" type="TextureRect" parent="." unique_id=895325337]
+custom_minimum_size = Vector2(75, 100)
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
+texture = ExtResource("2_8hoh7")
 
 [node name="Front" type="TextureRect" parent="." unique_id=1855808670]
+custom_minimum_size = Vector2(75, 100)
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
+texture = ExtResource("3_ry6jk")
