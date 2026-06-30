@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://y5q0pmvpyhjy" path="res://assets/tiles/Regular/Front.svg" id="3_ry6jk"]
 
 [node name="TileVisual" type="Control" unique_id=1123607190]
-custom_minimum_size = Vector2(75, 100)
+custom_minimum_size = Vector2(50, 60)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
