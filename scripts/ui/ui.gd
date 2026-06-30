@@ -13,11 +13,6 @@ var current_hand: Array[Tile] = []
 
 func _ready() -> void:
 	deck_manager = DeckManager.new()
-	
-	# Set size for each tile visual
-	for tile_button in tile_buttons:
-		tile_button.custom_minimum_size = Vector2(240, 120)
-	
 	draw_new_hand()
 
 func draw_new_hand():
