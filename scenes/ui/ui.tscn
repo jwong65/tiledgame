@@ -24,21 +24,16 @@ theme_override_constants/separation = 10
 alignment = 1
 
 [node name="TileVisual" parent="TileHand/TileContainer" unique_id=1123607190 instance=ExtResource("2_f5cxw")]
-custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
 [node name="TileVisual2" parent="TileHand/TileContainer" unique_id=1399609578 instance=ExtResource("2_f5cxw")]
-custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
 [node name="TileVisual3" parent="TileHand/TileContainer" unique_id=775669539 instance=ExtResource("2_f5cxw")]
-custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
 [node name="TileVisual4" parent="TileHand/TileContainer" unique_id=1129308297 instance=ExtResource("2_f5cxw")]
-custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
 
 [node name="TileVisual5" parent="TileHand/TileContainer" unique_id=264708602 instance=ExtResource("2_f5cxw")]
-custom_minimum_size = Vector2(100, 120)
 layout_mode = 2
